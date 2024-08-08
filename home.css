@@ -1,0 +1,217 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #161523;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: -20px;
+}
+
+.shape-1 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    background: linear-gradient(to top right, #00cef7, #2afe04, #2afe04 );
+    border-radius: 50%;
+    right: -80px;
+    top: -100px;
+    animation: float 25s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+
+.shape-2 {
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(45deg, #ffff00, #ff0000);
+    position: absolute;
+    border-radius: 50%;
+    left: -70px;
+    bottom: -30px;
+    animation: float 30s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+
+.card {
+    height: 90%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 15px;
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+}
+
+.card img {
+    width: 60%;
+    position: absolute;
+    right: -40px;
+    bottom: 20px;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, .06));
+ }
+
+.text-container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container h2 {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.text-container p {
+    color: #d5d5d5;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.text-btn span{
+    position: absolute;
+    left: 55%;
+    bottom: 8%;
+    transition: color 0.3s;
+    box-shadow: 1px 1px 1px #eeb013;
+    backdrop-filter: blur(5%);
+}
+span{
+    font-weight: 600;
+    font-size: medium;
+    color: #61d954;
+}
+span:hover{
+    color: #eeb013;
+}
+
+.shape-3 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background: linear-gradient(45deg, #8900e4, #8900e4, #f7ff00, #f7ff00);
+    border-radius: 50%;
+    right: 30px;
+    /* top: -100px; */
+    animation: float 15s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+
+.shape-4 {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(45deg, #f7ff00, #f7ff00, #ff4500, #ff007f);
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 250px;
+    animation: float 20s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+.shape-5 {
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(45deg, #bf00ff, #00ffff, #00ffff);
+    position: absolute;
+    border-radius: 50%;
+    left: 50px;
+    animation: float 10s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+.shape-6 {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(45deg, #ed3434, #9400d3);
+    position: absolute;
+    border-radius: 50%;
+    left: 50px;
+    bottom: 200px;
+    animation: float 15s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+.shape-7 {
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(45deg,  #ff4500, #166be9, #e0f7fa);
+    position: absolute;
+    border-radius: 50%;
+    right: 300px;
+    bottom: 130px;
+    animation: float 10s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+.shape-8 {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(45deg, #f7ff00, #f405e4f6);
+    position: absolute;
+    border-radius: 50%;
+    left: 650px;
+    top: 30px;
+    animation: float 15s ease-out infinite;
+}
+
+@keyframes float{
+    50%{
+    transform: translateY(40px);
+    }
+}
+
